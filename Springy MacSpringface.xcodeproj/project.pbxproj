@@ -11,6 +11,7 @@
 		876A01B1281363AD007D4210 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A01B0281363AD007D4210 /* ContentView.swift */; };
 		876A01B3281363AF007D4210 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876A01B2281363AF007D4210 /* Assets.xcassets */; };
 		876A01B6281363AF007D4210 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 876A01B5281363AF007D4210 /* Preview Assets.xcassets */; };
+		876A01BE28136421007D4210 /* DampedHarmonicOscillatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 876A01BD28136421007D4210 /* DampedHarmonicOscillatorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,8 @@
 		876A01B2281363AF007D4210 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		876A01B5281363AF007D4210 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		876A01B7281363AF007D4210 /* Springy_MacSpringface.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Springy_MacSpringface.entitlements; sourceTree = "<group>"; };
+		876A01BD28136421007D4210 /* DampedHarmonicOscillatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DampedHarmonicOscillatorView.swift; sourceTree = "<group>"; };
+		876A01BF281368BF007D4210 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +39,7 @@
 		876A01A2281363AD007D4210 = {
 			isa = PBXGroup;
 			children = (
+				876A01BF281368BF007D4210 /* README.md */,
 				876A01AD281363AD007D4210 /* Springy MacSpringface */,
 				876A01AC281363AD007D4210 /* Products */,
 			);
@@ -54,6 +58,7 @@
 			children = (
 				876A01AE281363AD007D4210 /* Springy_MacSpringfaceApp.swift */,
 				876A01B0281363AD007D4210 /* ContentView.swift */,
+				876A01BD28136421007D4210 /* DampedHarmonicOscillatorView.swift */,
 				876A01B2281363AF007D4210 /* Assets.xcassets */,
 				876A01B7281363AF007D4210 /* Springy_MacSpringface.entitlements */,
 				876A01B4281363AF007D4210 /* Preview Content */,
@@ -141,6 +146,7 @@
 			files = (
 				876A01B1281363AD007D4210 /* ContentView.swift in Sources */,
 				876A01AF281363AD007D4210 /* Springy_MacSpringfaceApp.swift in Sources */,
+				876A01BE28136421007D4210 /* DampedHarmonicOscillatorView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +306,7 @@
 				DEVELOPMENT_TEAM = PEZAT5DWHN;
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
